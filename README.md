@@ -2,6 +2,8 @@
 
 TypeScript + Bun CLI and local UI for receipt-image decisions using Liquid AI `d1` and `d1-ultra`. Each benchmark run uses exactly **one model** and produces its own JSON results file. The UI shows no generated results until you run the API or load a saved live report.
 
+![DonvitoCodes Receipt Lab Screenshot](docs/screenshot.png)
+
 ## Start
 
 ```sh
