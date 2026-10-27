@@ -1,0 +1,1 @@
+{"name":"liquid-receipt-bench","version":"1.0.0","private":true,"type":"module","scripts":{"bench":"bun src/cli.ts","demo":"bun src/demo.ts","test":"bun test","typecheck":"tsc --noEmit"},"devDependencies":{"@types/bun":"1.2.17","typescript":"5.8.3"}}

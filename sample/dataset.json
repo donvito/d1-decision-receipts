@@ -1,0 +1,68 @@
+[
+  {
+    "id": "cafe",
+    "image": "images/cafe.png",
+    "labels": {
+      "valid": true,
+      "readable": true,
+      "category": "meals",
+      "policy": true,
+      "suspicious": false
+    }
+  },
+  {
+    "id": "taxi",
+    "image": "images/taxi.png",
+    "labels": {
+      "valid": true,
+      "readable": true,
+      "category": "transport",
+      "policy": true,
+      "suspicious": false
+    }
+  },
+  {
+    "id": "hotel",
+    "image": "images/hotel.png",
+    "labels": {
+      "valid": true,
+      "readable": true,
+      "category": "lodging",
+      "policy": false,
+      "suspicious": false
+    }
+  },
+  {
+    "id": "altered",
+    "image": "images/altered.png",
+    "labels": {
+      "valid": true,
+      "readable": true,
+      "category": "office",
+      "policy": false,
+      "suspicious": true
+    }
+  },
+  {
+    "id": "blurred",
+    "image": "images/blurred.png",
+    "labels": {
+      "valid": true,
+      "readable": false,
+      "category": "meals",
+      "policy": false,
+      "suspicious": false
+    }
+  },
+  {
+    "id": "menu",
+    "image": "images/menu.png",
+    "labels": {
+      "valid": false,
+      "readable": false,
+      "category": "other",
+      "policy": false,
+      "suspicious": false
+    }
+  }
+]
