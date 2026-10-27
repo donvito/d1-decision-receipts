@@ -1,4 +1,4 @@
-# Liquid AI Receipt Lab
+# DonvitoCodes Receipt Lab
 
 TypeScript + Bun CLI and local UI for receipt-image decisions using Liquid AI `d1` and `d1-ultra`. Each benchmark run uses exactly **one model** and produces its own JSON results file. The UI shows no generated results until you run the API or load a saved live report.
 
@@ -67,9 +67,9 @@ Normally, launch from the project directory with `bun run demo`. To keep your re
 
 ```sh
 cd /path/to/my-receipt-data
-bun /path/to/receipts-decision/src/demo.ts
+bun /path/to/d1-receipt-lab/src/demo.ts
 # Or run the CLI against the same data and results folders:
-bun /path/to/receipts-decision/src/cli.ts --model d1
+bun /path/to/d1-receipt-lab/src/cli.ts --model d1
 ```
 
 That directory must contain `receipts/dataset.json` and its referenced images. The app's HTML stays with its source code; you do not need to copy demo/ into the data folder. The server prints the resolved dataset/results locations when it starts. Explicit CLI `--dataset` and `--out` paths resolve from your working directory; image paths inside a dataset always resolve from that dataset's own directory. `bun --cwd <folder>` changes the working directory and therefore the data location.

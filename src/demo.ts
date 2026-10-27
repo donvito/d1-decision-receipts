@@ -54,6 +54,6 @@ const server=Bun.serve({hostname:'127.0.0.1',port:Number(process.env.PORT??3000)
  if(path==='/'||path==='/index.html')return new Response(Bun.file(resolve(codeRoot,'demo/index.html')));
  return new Response('Not found',{status:404});
 }});
-console.log(`Liquid AI Receipt Lab demo: ${server.url}`);
+console.log(`DonvitoCodes Receipt Lab demo: ${server.url}`);
 
 console.log(`Dataset: ${paths.dataset}\nResults: ${paths.results}`);
